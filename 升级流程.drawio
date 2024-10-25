@@ -7,7 +7,7 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-1" value="升级高性能&lt;div&gt;云产品&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="100" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="下载安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="step1: 下载安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
