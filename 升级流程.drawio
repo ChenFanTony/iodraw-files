@@ -10,8 +10,14 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="step1: 下载安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-3" target="qZkyeaaC3u281_93p0Kt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul POD 更新为 manul_v2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
