@@ -54,8 +54,14 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-20" value="step4. 完成云产品升级。&lt;br&gt;新API 通过manul-V2到 controller 才能访问到manager 和 target" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="440" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bWttF4Ye1A_sWvjmgaZt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bWttF4Ye1A_sWvjmgaZt-1" target="bWttF4Ye1A_sWvjmgaZt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bWttF4Ye1A_sWvjmgaZt-1" value="step5: by节点升级内核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="297.5" y="530" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWttF4Ye1A_sWvjmgaZt-3" value="1. 升级前检查是否有异常路径告警" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
