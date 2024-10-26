@@ -19,7 +19,10 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-3" target="qZkyeaaC3u281_93p0Kt-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul POD 更新为 manul_v2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-3" target="qZkyeaaC3u281_93p0Kt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul 停止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8">
@@ -36,6 +39,9 @@
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 voctrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-16" value="step3. manul-v2 启动运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
