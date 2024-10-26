@@ -4,8 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qZkyeaaC3u281_93p0Kt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-1" target="qZkyeaaC3u281_93p0Kt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-1" value="升级高性能&lt;div&gt;云产品&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-2" target="qZkyeaaC3u281_93p0Kt-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="step1: 下载安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
@@ -16,22 +22,20 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul POD 更新为 manul_v2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="650" y="290" />
-              <mxPoint x="650" y="200" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 voctrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
