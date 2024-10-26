@@ -30,6 +30,9 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 voctrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
