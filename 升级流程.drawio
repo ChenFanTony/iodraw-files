@@ -1,55 +1,55 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="D0J0jl4IKhHa07DCxUIr">
     <mxGraphModel dx="954" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qZkyeaaC3u281_93p0Kt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-1" target="qZkyeaaC3u281_93p0Kt-2">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-1" target="qZkyeaaC3u281_93p0Kt-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-1" value="升级高性能&lt;div&gt;云产品&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-1" value="升级高性能&lt;div&gt;云产品&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="100" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-2" target="qZkyeaaC3u281_93p0Kt-3">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-2" target="qZkyeaaC3u281_93p0Kt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="step1: 下载安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-2" value="step1: 下载安装" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-3" target="qZkyeaaC3u281_93p0Kt-16">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-3" target="qZkyeaaC3u281_93p0Kt-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul 停止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul 停止" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-11">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 volctrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 volctrl" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-16" target="qZkyeaaC3u281_93p0Kt-6">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-16" target="qZkyeaaC3u281_93p0Kt-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-16">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-16" value="step3. manul-v2 启动运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qZkyeaaC3u281_93p0Kt-16" value="step3. manul-v2 启动运行" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZkyeaaC3u281_93p0Kt-20" value="step4. 完成。&lt;br&gt;新API 通过manul-V2到 controller 才能访问到manager 和 target" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="qZkyeaaC3u281_93p0Kt-20" value="step4. 完成云产品升级。&lt;br&gt;新API 通过manul-V2到 controller 才能访问到manager 和 target" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="275" y="440" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
