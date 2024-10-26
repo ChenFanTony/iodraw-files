@@ -66,6 +66,9 @@
         <mxCell id="bWttF4Ye1A_sWvjmgaZt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bWttF4Ye1A_sWvjmgaZt-1" target="bWttF4Ye1A_sWvjmgaZt-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bWttF4Ye1A_sWvjmgaZt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bWttF4Ye1A_sWvjmgaZt-1" target="bWttF4Ye1A_sWvjmgaZt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bWttF4Ye1A_sWvjmgaZt-1" value="step5: by节点升级内核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="297.5" y="530" width="125" height="60" as="geometry" />
         </mxCell>
@@ -80,6 +83,9 @@
         </mxCell>
         <mxCell id="bWttF4Ye1A_sWvjmgaZt-10" value="4. 恢复节点副本" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bWttF4Ye1A_sWvjmgaZt-12" value="step6: 升级全部完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
