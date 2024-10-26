@@ -16,8 +16,19 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-3" value="step2. manul POD 更新为 manul_v2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="290" />
+              <mxPoint x="650" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
