@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" modified="2024-10-28T03:05:26.123Z" version="24.4.6" etag="URamuIPWghZF-YZXjMzm" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" modified="2024-10-28T03:12:19.180Z" version="24.4.6" etag="eRWeFB_4ddb6OR0MXkvL" type="github">
   <diagram name="第 1 页" id="D0J0jl4IKhHa07DCxUIr">
     <mxGraphModel dx="1434" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,14 +28,17 @@
         <mxCell id="qZkyeaaC3u281_93p0Kt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="qZkyeaaC3u281_93p0Kt-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="o1eVytStmYYWEXCoO4nw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZkyeaaC3u281_93p0Kt-6" target="o1eVytStmYYWEXCoO4nw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-6" value="依赖job：&lt;br&gt;alcubierre-upgrade" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-8" value="1. 等待旧manul pod全部停止，不接收新API" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-11" value="2. 根据volume元数据卷的列表迁移元数据到新数据结构 volctrl" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="330" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZkyeaaC3u281_93p0Kt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qZkyeaaC3u281_93p0Kt-16" target="qZkyeaaC3u281_93p0Kt-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -86,6 +89,9 @@
         </mxCell>
         <mxCell id="bWttF4Ye1A_sWvjmgaZt-12" value="step6: 升级全部完成" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1eVytStmYYWEXCoO4nw-1" value="3. job检查元数据异常时，新的pod不会启动；高性能页面会看到服务一直不可用， 这时需要运维介入，因为环境元数据有问题，需要修复" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="140" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
