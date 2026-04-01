@@ -158,26 +158,26 @@
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-41" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="197" y="784" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. conntroller： 检查元数据wait_status， 查询副本还在, 就会直接调度到原单节点（好的副本）， 并且不会再给异常节点发送" vertex="1">
-          <mxGeometry height="50" width="235" x="285" y="719" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. conntroller： 检查元数据wait_status， 查询有副本还在, 就会直接调度到原单节点（好的副本）， 并且不会再给异常节点发送API" vertex="1">
+          <mxGeometry height="50" width="265" x="285" y="719" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2. controller： 按旧的节点调度发送连接connect 请求让节点初始化副本" vertex="1">
-          <mxGeometry height="30" width="220" x="285" y="779" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2. controller： 按旧的节点调度发送connect 请求让节点初始化副本" vertex="1">
+          <mxGeometry height="31" width="245" x="285" y="779" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="3. manager： controller connect rpc 过来时，正好检查本地又是无副本（在controller API周期内，检查时，， 因此只初始化了当前本地alcub 设备。（默认无副本情况manager 期望是2个副本都会调用connect 来建立两副本的初始化。）" vertex="1">
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="3. manager： controller connect rpc 过来时，自身正好检查本地是无副本（在controller API周期内，异步状态机进行完了一次设备清理成无副本状态）， 因此初始化了当前本地alcub 设备。（默认无副本情况manager 期望是2个副本都会调用connect 来建立两副本的初始化。）" vertex="1">
           <mxGeometry height="90" width="250" x="275" y="974" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. controller： 正常给副本节点发送设置成主。（set role primary）预期让2个副本建立连接。" vertex="1">
-          <mxGeometry height="30" width="260" x="280" y="839" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="4. controller： 给正常副本节点发送设置成主。（set drbd primary 提供副本访问权限）。" vertex="1">
+          <mxGeometry height="30" width="260" x="285" y="829" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#CC0000;" value="5. manager：set role 后， 无法等待2副本构建。 因为只发了一个副本。set role primary 无法等待连接建立接口超时。 ---&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;EAS-140654&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="230" x="275" y="1079" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#CC0000;" value="5. manager：正常单副本未回刷完成情况下，connect和set role接口不需要做任何事情。但是如果是初始化 set role 后，设置成主需要等待其他副本建立连接。 因为只发了一个副本。set role primary 无法等待副本建立连接接口超时。 ---&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;EAS-140654&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="285" x="275" y="1088" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="修改方案：controller 针对单副本情况，明确告诉manager 是单副本场景， 如果manager 检查时发现不再是单副本， 返回非单副本， 让controller 重新再重做一次挂载流程。修改后场景同重新调度。" vertex="1">
-          <mxGeometry height="50" width="440" x="130" y="1139" as="geometry" />
+          <mxGeometry height="50" width="440" x="130" y="1150" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(在一个API 周期内需要保证原子性）" vertex="1">
-          <mxGeometry height="30" width="210" x="300" y="689" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="(在一个attach API 周期内需要保证原子性，不会对异常副本进行API发送 ）" vertex="1">
+          <mxGeometry height="31" width="250" x="310" y="688" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
