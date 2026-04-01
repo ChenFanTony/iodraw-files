@@ -167,8 +167,8 @@
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="3. manager： controller connect rpc 过来时，正好检查本地又是无副本， 因此只初始化了当前本地alcub 设备。（默认无副本情况manager 期望是2个副本都会调用connect 来建立两副本的初始化。）" vertex="1">
           <mxGeometry height="90" width="250" x="275" y="945" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. controller： 正常给副本节点发送设置成主。（set role primary）让2个副本建立连接。" vertex="1">
-          <mxGeometry height="30" width="245" x="275" y="810" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. controller： 正常给副本节点发送设置成主。（set role primary）预期让2个副本建立连接。" vertex="1">
+          <mxGeometry height="30" width="260" x="280" y="810" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#CC0000;" value="5. manager：set role 后， 无法等待2副本构建。 因为只发了一个副本。set role 超时。 ---&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;EAS-140654&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" x="275" y="1050" as="geometry" />
