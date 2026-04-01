@@ -63,7 +63,7 @@
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="attach" vertex="1">
           <mxGeometry height="30" width="60" x="860" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(245, 0, 0), rgb(237, 237, 237));&quot;&gt;刚起来的异常副本&lt;br&gt;地aldiskinfo 未清理&lt;/font&gt;" vertex="1">
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(245, 0, 0), rgb(237, 237, 237));&quot;&gt;刚起来的异常副本&lt;br&gt;的aldiskinfo 未清理&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="720" y="890" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="无副本" vertex="1">
