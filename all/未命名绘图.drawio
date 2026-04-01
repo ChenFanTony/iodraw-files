@@ -97,7 +97,7 @@
           <mxGeometry height="40" width="260" x="310" y="790" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="修改方案： 清理残留元数据时有节点信息，调度时不选择这个节点。&lt;br&gt;场景同这个异常节点在挂载API后启动。&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="440" x="140" y="960" as="geometry" />
+          <mxGeometry height="50" width="440" x="135" y="960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
