@@ -29,75 +29,129 @@
           <mxGeometry height="40" width="310" x="100" y="330" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="异常副本" vertex="1">
-          <mxGeometry height="60" width="120" x="135" y="530" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="540" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="drbd 好的副本" vertex="1">
-          <mxGeometry height="60" width="120" x="325" y="530" as="geometry" />
+          <mxGeometry height="60" width="120" x="910" y="540" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-5" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fCMbRvaDpKP1Wld_WHLn-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="305" y="475" />
-              <mxPoint x="385" y="475" />
+              <mxPoint x="890" y="485" />
+              <mxPoint x="970" y="485" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="detach" vertex="1">
-          <mxGeometry height="30" width="60" x="275" y="390" as="geometry" />
+          <mxGeometry height="30" width="60" x="860" y="400" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-7" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="225" y="460" as="geometry" />
+          <mxGeometry height="30" width="30" x="810" y="470" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-11" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="fCMbRvaDpKP1Wld_WHLn-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="case 1：&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="60" x="55" y="400" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="case 2：&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="fCMbRvaDpKP1Wld_WHLn-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="case 2：&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="60" x="610" y="400" as="geometry" />
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="case 1：&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="410" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.&amp;nbsp; 代码流程见代码流程图&lt;br&gt;2. 本质设置stop 元数据返回" vertex="1">
-          <mxGeometry height="30" width="190" x="325" y="600" as="geometry" />
+          <mxGeometry height="30" width="190" x="910" y="610" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="attach" vertex="1">
-          <mxGeometry height="30" width="60" x="275" y="650" as="geometry" />
+          <mxGeometry height="30" width="60" x="860" y="660" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(245, 0, 0), rgb(237, 237, 237));&quot;&gt;刚起来的异常副本&lt;br&gt;地aldiskinfo 未清理&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="135" y="880" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="890" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="无副本" vertex="1">
-          <mxGeometry height="60" width="120" x="325" y="880" as="geometry" />
+          <mxGeometry height="60" width="120" x="910" y="890" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fCMbRvaDpKP1Wld_WHLn-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="305" y="830" />
-              <mxPoint x="385" y="830" />
+              <mxPoint x="890" y="840" />
+              <mxPoint x="970" y="840" />
             </Array>
-            <mxPoint x="305" y="680" as="sourcePoint" />
+            <mxPoint x="890" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="fCMbRvaDpKP1Wld_WHLn-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="305" y="830" />
-              <mxPoint x="205" y="830" />
+              <mxPoint x="890" y="840" />
+              <mxPoint x="790" y="840" />
             </Array>
-            <mxPoint x="305" y="680" as="sourcePoint" />
+            <mxPoint x="890" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. 检查是否有orphan 节点（代表好的副本已经回刷+drbd清理完成，只有异常副本有残留元数据）， 如果有就清理共有元数据 peer 信息" vertex="1">
-          <mxGeometry height="60" width="270" x="310" y="680" as="geometry" />
+          <mxGeometry height="60" width="270" x="895" y="690" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2. 由于副本都已经清理， 需要走重新调度（connect_selector)" vertex="1">
-          <mxGeometry height="60" width="270" x="310" y="730" as="geometry" />
+          <mxGeometry height="60" width="270" x="895" y="740" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="3. 调度选择2个新副本时， 选择到了之前异常副本， &lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;因为查询到本地aldiskinfo 还未清理接口报错。&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="260" x="310" y="790" as="geometry" />
+          <mxGeometry height="40" width="260" x="895" y="800" as="geometry" />
         </mxCell>
         <mxCell id="fCMbRvaDpKP1Wld_WHLn-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="修改方案： 清理残留元数据时有节点信息，调度时不选择这个节点。&lt;br&gt;场景同这个异常节点在挂载API后启动。&amp;nbsp;" vertex="1">
-          <mxGeometry height="50" width="440" x="135" y="960" as="geometry" />
+          <mxGeometry height="50" width="440" x="720" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="异常副本" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="drbd 好的副本" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-30" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fCMbRvaDpKP1Wld_WHLn-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="485" />
+              <mxPoint x="360" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="detach" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-32" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-33" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="fCMbRvaDpKP1Wld_WHLn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.&amp;nbsp; 代码流程见代码流程图&lt;br&gt;2. 本质设置stop 元数据返回" vertex="1">
+          <mxGeometry height="30" width="190" x="300" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-38" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fCMbRvaDpKP1Wld_WHLn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="attach" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="异常副本" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="drbd 好的副本" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-40" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-42" edge="1" parent="1" source="fCMbRvaDpKP1Wld_WHLn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="770" />
+              <mxPoint x="170" y="770" />
+            </Array>
+            <mxPoint x="280" y="690" as="sourcePoint" />
+            <mxPoint x="170" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCMbRvaDpKP1Wld_WHLn-41" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="197" y="755" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
