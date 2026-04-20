@@ -86,7 +86,7 @@
           <mxGeometry height="30" width="60" x="210" y="70" as="geometry" />
         </mxCell>
         <mxCell id="jlSp_G2U_6gr9TUBWSZ1-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/sdc" vertex="1">
-          <mxGeometry height="30" width="60" x="420" y="70" as="geometry" />
+          <mxGeometry height="30" width="60" x="410" y="70" as="geometry" />
         </mxCell>
         <mxCell id="jlSp_G2U_6gr9TUBWSZ1-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="host 1" vertex="1">
           <mxGeometry height="30" width="60" x="240" y="10" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry height="30" width="60" x="260" y="70" as="geometry" />
         </mxCell>
         <mxCell id="jlSp_G2U_6gr9TUBWSZ1-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/sdd" vertex="1">
-          <mxGeometry height="30" width="60" x="460" y="70" as="geometry" />
+          <mxGeometry height="30" width="60" x="470" y="70" as="geometry" />
         </mxCell>
         <mxCell id="1AH8Og3Dh_rdGF8TJYDv-5" edge="1" parent="1" source="1AH8Og3Dh_rdGF8TJYDv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="jlSp_G2U_6gr9TUBWSZ1-10">
           <mxGeometry relative="1" as="geometry" />
